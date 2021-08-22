@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main (void)
+{
+	int e, n, p;
+	
+	printf("Sucesor y antecesor de un numero par o inpar\n");
+	printf("Su numero es: \n");
+	scanf("%d",&e);
+	
+	n=e-2;
+	p=e+2;
+	
+	printf("Su sucesor es: %d\n",p);
+	printf("Su antecesor es: %d",n);
+	
+}
